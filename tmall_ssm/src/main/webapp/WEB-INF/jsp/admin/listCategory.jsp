@@ -44,7 +44,7 @@
             </tr>
             </thead>
             <tbody>
-            <c:forEach items="${cs}" var="c">
+            <c:forEach items="${categoryList}" var="c">
 
                 <tr>
                     <td>${c.id}</td>
@@ -63,7 +63,7 @@
     </div>
 
     <div class="pageDiv">
-        <%@include file="../include/admin/adminPage.jsp" %>
+        <%--  <%@include file="../include/admin/adminPage.jsp" %>  --%>
     </div>
 
     <div class="panel panel-warning addDiv">
