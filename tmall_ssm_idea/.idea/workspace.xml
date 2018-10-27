@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fb1b8b8-ebc7-418a-b0f3-0f66d8bddda9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resourses/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resourses/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourses/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resourses/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,29 +53,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="5" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="5" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="73" />
-          <entry key="txt" value="71" />
-          <entry key="xml" value="5" />
+          <entry key="txt" value="128" />
+          <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="73" />
-          <entry key="PLAIN_TEXT" value="71" />
-          <entry key="XML" value="5" />
+          <entry key="PLAIN_TEXT" value="128" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
     </session>
@@ -122,11 +122,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resourses/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
               <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resourses/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resourses/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -179,6 +197,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>how2</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -193,6 +216,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wikka/tmall/controller/CategoryController.java" />
         <option value="$PROJECT_DIR$/src/main/resourses/mapper/CategoryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resourses/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resourses/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/resourses/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -295,7 +320,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540610966861" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540611114124" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -327,7 +352,7 @@
       <option name="presentableId" value="Default" />
       <updated>1540607701191</updated>
       <workItem from="1540607707363" duration="587000" />
-      <workItem from="1540608451897" duration="1549000" />
+      <workItem from="1540608451897" duration="1696000" />
     </task>
     <task id="LOCAL-00001" summary="add category pojo, mapper, service and serviceImpl">
       <created>1540609239095</created>
@@ -343,11 +368,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540609900222</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add categoryMapper.xml to store sql;&#10;add log4j">
+      <created>1540611003397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540611003397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2136000" />
+    <option name="totallyTimeSpent" value="2283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
@@ -396,7 +428,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add category pojo, mapper, service and serviceImpl" />
     <MESSAGE value="category controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="category controller" />
+    <MESSAGE value="add categoryMapper.xml to store sql;&#10;add log4j" />
+    <option name="LAST_COMMIT_MESSAGE" value="add categoryMapper.xml to store sql;&#10;add log4j" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikka/tmall/mapper/CategoryMapper.java">
@@ -476,6 +509,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resourses/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resourses/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
         </state>
       </provider>
     </entry>
