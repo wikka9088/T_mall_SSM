@@ -3,6 +3,7 @@ package com.how2java.mapper;
 import java.util.List;
 
 import com.how2java.pojo.Category;
+import com.how2java.util.Page;
  
 public interface CategoryMapper {
  
@@ -21,8 +22,10 @@ public interface CategoryMapper {
       
     public List<Category> list();
     
+    public List<Category> list(Page page);
+    
       
-    public int count();  
+    public int total();  
     
     
     

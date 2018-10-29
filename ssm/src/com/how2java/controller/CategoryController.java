@@ -10,6 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.how2java.pojo.Category;
 import com.how2java.service.CategoryService;
+import com.how2java.util.Page;
 
 // 告诉spring mvc这是一个控制器类
 @Controller
@@ -19,9 +20,13 @@ public class CategoryController {
 	CategoryService categoryService;
 
 	@RequestMapping("listCategory")
-	public ModelAndView listCategory(){
+	public ModelAndView listCategory(Page page){
+	
 		ModelAndView mav = new ModelAndView();
-		List<Category> cs= categoryService.list();
+		List<Category> cs= categoryService.list(page);
+		int total = categoryService.total();
+		
+		page.caculateLast(total);
 		
 		// 放入转发参数
 		mav.addObject("cs", cs);
