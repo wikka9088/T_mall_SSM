@@ -10,14 +10,13 @@ import com.how2java.pojo.Category;
 import com.how2java.service.CategoryService;
 
 @Service
-public class CategoryServiceImpl implements CategoryService {
+public class CategoryServiceImpl  implements CategoryService{
 	@Autowired
 	CategoryMapper categoryMapper;
-
-	@Override
-	public List<Category> list() {
-		// TODO Auto-generated method stub
+	
+	
+	public List<Category> list(){
 		return categoryMapper.list();
-	}
+	};
 
 }
